@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static boolean isRegularNumber(String number){
-        String regex = "^((\\+?375|80)[\\- (]?)((29|25|33|44|17)[\\- )]?)(\\d{3})-?(\\d{2})-?(\\d{2})$";
+        String regex = "^((\\+375|80)[\\- (]?)((29|25|33|44|17)[\\- )]?)(\\d{3})-?(\\d{2})-?(\\d{2})$";
         return Pattern.matches(regex,number);
     }
 }

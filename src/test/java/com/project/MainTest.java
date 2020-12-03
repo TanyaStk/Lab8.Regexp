@@ -30,7 +30,7 @@ class MainTest {
     }
 
     @org.junit.jupiter.api.Test
-    void testIsRegularWrongNumber() {
+    void testIsRegularWrongNumberWithPlus() {
         String number = "+80299832245";
         assertFalse(isRegularNumber(number));
     }
